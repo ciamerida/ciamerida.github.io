@@ -46,6 +46,6 @@ whatsapp_number: +584121269902 # your WhatsApp number (full phone number in inte
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-  logo: https://commons.wikimedia.org/wiki/File:Google_Maps_icon_%282020%29.svg # can be png, svg, jpg
+  logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Google_Maps_icon_%282020%29.svg/1200px-Google_Maps_icon_%282020%29.svg.png # can be png, svg, jpg
   title: Ubicación
   url: https://maps.app.goo.gl/g5qtdbaa2NZ8N2Q37
