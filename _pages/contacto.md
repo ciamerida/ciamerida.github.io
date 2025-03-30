@@ -4,19 +4,20 @@ permalink: /contacto/
 title: Contacto
 description: 
 nav: true
-nav_order: 6
+nav_order: 3
 ---
 
 ## Contáctanos
 
 - **Teléfono fijo:** 0274-2661626  
 - **Móvil:** 0412-1269902
-- **WhatsApp:** [0412-1269902](https://wa.me/+584121269902)
+- **WhatsApp:** [0412-1269902](https://wa.me/584121269902)
 - **Email:** [ciamer_b@gmail.com](mailto:ciamer_b@gmail.com)
+- **Instagram:** [ciamerida](https://www.instagram.com/ciamerida/)
 
 ---
 
-## ¿Dónde estamos?
+## Dirección
 
 Encuéntranos en la **Avenida Andrés Bello, Urbanización Las Delias, Edificio Atrium Centro Diagnóstico, Planta Baja Local B**.
 Mérida, Venezuela.
@@ -36,6 +37,7 @@ referrerpolicy="no-referrer-when-downgrade"></iframe>
 ## ¿Quieres que te contactemos?
 
 Si deseas que te contactemos directamente, por favor deja tus datos a continuación o escríbenos a través de WhatsApp o correo electrónico.
+
 <form action="https://formspree.io/f/xzzeajoe" method="POST">
   <label for="name">Nombre:</label><br>
   <input type="text" id="name" name="name" required><br><br>

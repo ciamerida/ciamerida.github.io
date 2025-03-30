@@ -3,7 +3,7 @@ layout: page
 title: Sobre Nosotros
 permalink: /sobre-nosotros/
 nav: true
-nav_order: 2
+nav_order: 1
 
 ---
 
