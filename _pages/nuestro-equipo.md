@@ -45,7 +45,7 @@ sections:
   - title: Personal Administrativo
     profiles:
       - align: right
-        image: luqa.jpeg
+        image: AGUSTIN.jpeg
         content: 
         image_circular: true
         more_info: >
@@ -64,7 +64,7 @@ sections:
           <p>CCO & CXO</p>
 
       - align: right
-        image: luqa.jpeg
+        image: MECHE.jpeg
         content: 
         image_circular: true
         more_info: >
