@@ -8,19 +8,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-sobre-nosotros",
-          title: "Sobre Nosotros",
+  },{id: "nav-nosotros",
+          title: "Nosotros",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/sobre-nosotros/";
-          },
-        },{id: "nav-servicios",
-          title: "Servicios",
-          description: "Servicios del Centro de Imagenología Avanzada Mérida",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/servicios/";
+            window.location.href = "/nosotros/";
           },
         },{id: "nav-contacto",
           title: "Contacto",
@@ -29,28 +22,35 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contacto/";
           },
-        },{id: "dropdown-nuestro-equipo",
-              title: "Nuestro-Equipo",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/nuestro-equipo/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "nav-posts",
+        },{id: "nav-servicios",
+          title: "Servicios",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/servicios/";
+          },
+        },{id: "nav-posts",
           title: "Posts",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/posts/index.html";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "dropdown-nuestro-equipo",
+              title: "Nuestro Equipo",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/nuestro-equipo/";
+              },
+            },{id: "dropdown-trabaja-con-nosotros",
+              title: "Trabaja con Nosotros",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/trabaja-con-nosotros/";
+              },
+            },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -414,135 +414,185 @@ ninja.data = [{
           
         },
       },// Servicios collection{
-      id: "service-prueba-biopsia-mama",
-      title: "prueba biopsia mama",
-      description: "Director Financiero y Operacional - CFO &amp; COO",
+      id: "service-biopsia",
+      title: "Biopsia",
+      description: "",
       section: "Servicios",
       handler: () => {
         window.location.href = "/services/biopsia/";
       },
     },{
-      id: "service-prueba-densitometria",
-      title: "prueba densitometria",
-      description: "Director Financiero y Operacional - CFO &amp; COO",
+      id: "service-densitometría-ósea",
+      title: "Densitometría Ósea",
+      description: "",
       section: "Servicios",
       handler: () => {
         window.location.href = "/services/densitometria/";
       },
     },{
-      id: "service-prueba-doppler",
-      title: "prueba doppler",
-      description: "Director Financiero y Operacional - CFO &amp; COO",
+      id: "service-doppler-testicular",
+      title: "Doppler Testicular",
+      description: "",
       section: "Servicios",
       handler: () => {
-        window.location.href = "/services/doppler/";
+        window.location.href = "/services/doppler_1_testicular/";
       },
     },{
-      id: "service-prueba-mamografia",
-      title: "prueba mamografia",
-      description: "Director Financiero y Operacional - CFO &amp; COO",
+      id: "service-doppler-de-cuello",
+      title: "Doppler de Cuello",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/doppler_2_cuello/";
+      },
+    },{
+      id: "service-doppler-carotídeo-vertebral",
+      title: "Doppler Carotídeo - Vertebral",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/doppler_3_carotideo_vertebral/";
+      },
+    },{
+      id: "service-doppler-vascular-periférico",
+      title: "Doppler Vascular Periférico",
+      description: "Arterial y Venoso",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/doppler_4_vascular/";
+      },
+    },{
+      id: "service-mamografía-digital",
+      title: "Mamografía Digital",
+      description: "",
       section: "Servicios",
       handler: () => {
         window.location.href = "/services/mamografia/";
       },
     },{
-      id: "service-prueba-ultrasonido",
-      title: "prueba ultrasonido",
-      description: "Director Financiero y Operacional - CFO &amp; COO",
+      id: "service-punciones",
+      title: "Punciones",
+      description: "",
       section: "Servicios",
       handler: () => {
-        window.location.href = "/services/ultrasonido/";
+        window.location.href = "/services/punciones/";
       },
-    },// Other collections (except posts and services){id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",
-          handler: () => {
-            window.location.href = "/books/the_godfather/";
-          },
-        },{id: "news-announcement-1",
-          title: 'Announcement_1',
+    },{
+      id: "service-ultrasonido-transfontanelar",
+      title: "Ultrasonido Transfontanelar",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/ultrasonido_10_transfontanelar/";
+      },
+    },{
+      id: "service-ultrasonido-dermatológico",
+      title: "Ultrasonido Dermatológico",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/ultrasonido_11_dermatologico/";
+      },
+    },{
+      id: "service-ultrasonido-dermatológico",
+      title: "Ultrasonido Dermatológico",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/ultrasonido_12_pediatrico/";
+      },
+    },{
+      id: "service-ultrasonido-abdominal",
+      title: "Ultrasonido Abdominal",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/ultrasonido_1_abdominal/";
+      },
+    },{
+      id: "service-ultrasonido-pélvico",
+      title: "Ultrasonido Pélvico",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/ultrasonido_2_pelvico/";
+      },
+    },{
+      id: "service-ultrasonido-renal",
+      title: "Ultrasonido Renal",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/ultrasonido_3_renal/";
+      },
+    },{
+      id: "service-ultrasonido-vesical",
+      title: "Ultrasonido Vesical",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/ultrasonido_4_vesical/";
+      },
+    },{
+      id: "service-ultrasonido-mamario",
+      title: "Ultrasonido Mamario",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/ultrasonido_5_mamario/";
+      },
+    },{
+      id: "service-ultrasonido-músculo-esquelético",
+      title: "Ultrasonido Músculo esquelético",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/ultrasonido_6_musculoesqueletico/";
+      },
+    },{
+      id: "service-ultrasonido-partes-blandas",
+      title: "Ultrasonido Partes Blandas",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/ultrasonido_7_partesblandas/";
+      },
+    },{
+      id: "service-ultrasonido-ginecológico",
+      title: "Ultrasonido Ginecológico",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/ultrasonido_8_ginecologico/";
+      },
+    },{
+      id: "service-ultrasonido-prostático",
+      title: "Ultrasonido Prostático",
+      description: "Suprapúbico y Transrectal",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/ultrasonido_9_prost%C3%A1tico/";
+      },
+    },// Other collections (except posts and services){id: "news-15-anos-de-ciamer",
+          title: '15 anos de CIAMER',
           description: "",
           section: "News",
           handler: () => {
-            window.location.href = "/news/announcement_1/";
+            window.location.href = "/news/15_anos/";
           },
-        },{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+        },{id: "news-caminata-rosa-2024",
+          title: 'Caminata_rosa_2024',
           description: "",
           section: "News",
           handler: () => {
-            window.location.href = "/news/announcement_2/";
+            window.location.href = "/news/caminata_rosa_2024/";
           },
-        },{id: "news-announcement-3",
-          title: 'Announcement_3',
+        },{id: "news-marzo-2024",
+          title: 'Marzo_2024',
           description: "",
           section: "News",
           handler: () => {
-            window.location.href = "/news/announcement_3/";
-          },
-        },{id: "projects-lic-agustin-márquez",
-          title: 'Lic. Agustin Márquez',
-          description: "Director Financiero y Operacional - CFO &amp; COO",
-          section: "Projects",
-          handler: () => {
-            window.location.href = "/projects/Agustin_Marquez/";
-          },
-        },{id: "projects-dra-analy-falcon",
-          title: 'Dra. Analy Falcon',
-          description: "Médico Internista - Médico Radiólogo",
-          section: "Projects",
-          handler: () => {
-            window.location.href = "/projects/Analy_Falcon/";
-          },
-        },{id: "projects-lic-daniela-alarcon",
-          title: 'Lic. Daniela Alarcon',
-          description: "Técnico Radiólogo",
-          section: "Projects",
-          handler: () => {
-            window.location.href = "/projects/Daniela_Alarcon/";
-          },
-        },{id: "projects-lic-indira-gago",
-          title: 'Lic. Indira Gago',
-          description: "Encargada Digital y de Comunicaciones",
-          section: "Projects",
-          handler: () => {
-            window.location.href = "/projects/Indira_Gago/";
-          },
-        },{id: "projects-ing-jennifer-pacheco",
-          title: 'Ing. Jennifer Pacheco',
-          description: "Directora de Comunicaciones - CCO",
-          section: "Projects",
-          handler: () => {
-            window.location.href = "/projects/Jennifer_Pacheco/";
-          },
-        },{id: "projects-dra-jenny-sosa-guerrero",
-          title: 'Dra. Jenny Sosa Guerrero',
-          description: "Médico Radiólogo",
-          section: "Projects",
-          handler: () => {
-            window.location.href = "/projects/Jenny_Sosa/";
-          },
-        },{id: "projects-dra-jenny-sosa-guerrero",
-          title: 'Dra. Jenny Sosa Guerrero',
-          description: "Directora Ejecutiva - CEO",
-          section: "Projects",
-          handler: () => {
-            window.location.href = "/projects/Jenny_Sosa_2/";
-          },
-        },{id: "projects-ing-maría-márquez",
-          title: 'Ing. María Márquez',
-          description: "Directora de Tecnología - CTO",
-          section: "Projects",
-          handler: () => {
-            window.location.href = "/projects/Mar%C3%ADa_Marquez/";
-          },
-        },{id: "projects-lic-victoria-serrano",
-          title: 'Lic. Victoria Serrano',
-          description: "Técnico Radiólogo",
-          section: "Projects",
-          handler: () => {
-            window.location.href = "/projects/Victoria_Serrano/";
+            window.location.href = "/news/Marzo_2024/";
           },
         },// Socials{
         id: 'social-email',
