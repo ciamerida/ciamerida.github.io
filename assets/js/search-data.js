@@ -1,7 +1,6 @@
 // get the ninja-keys element
 const ninja = document.querySelector('ninja-keys');
 
-// add the home and posts menu items
 ninja.data = [{
     id: "nav-ciamer",
     title: "CIAMER",
@@ -30,7 +29,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contacto/";
           },
-        },{id: "nav-posts",
+        },{id: "dropdown-nuestro-equipo",
+              title: "Nuestro-Equipo",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/nuestro-equipo/";
+              },
+            },{id: "dropdown-blog",
+              title: "blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "nav-posts",
           title: "Posts",
           description: "",
           section: "Navigation",
@@ -400,93 +413,138 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
+      },// Servicios collection{
+      id: "service-prueba-biopsia-mama",
+      title: "prueba biopsia mama",
+      description: "Director Financiero y Operacional - CFO &amp; COO",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/biopsia/";
+      },
+    },{
+      id: "service-prueba-densitometria",
+      title: "prueba densitometria",
+      description: "Director Financiero y Operacional - CFO &amp; COO",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/densitometria/";
+      },
+    },{
+      id: "service-prueba-doppler",
+      title: "prueba doppler",
+      description: "Director Financiero y Operacional - CFO &amp; COO",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/doppler/";
+      },
+    },{
+      id: "service-prueba-mamografia",
+      title: "prueba mamografia",
+      description: "Director Financiero y Operacional - CFO &amp; COO",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/mamografia/";
+      },
+    },{
+      id: "service-prueba-ultrasonido",
+      title: "prueba ultrasonido",
+      description: "Director Financiero y Operacional - CFO &amp; COO",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/ultrasonido/";
+      },
+    },// Other collections (except posts and services){id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+          section: "Books",
+          handler: () => {
+            window.location.href = "/books/the_godfather/";
+          },
+        },{id: "news-announcement-1",
+          title: 'Announcement_1',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+          section: "News",
+          handler: () => {
+            window.location.href = "/news/announcement_1/";
+          },
+        },{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",
+          handler: () => {
+            window.location.href = "/news/announcement_2/";
+          },
+        },{id: "news-announcement-3",
+          title: 'Announcement_3',
           description: "",
-          section: "News",},{id: "projects-lic-agustin-márquez",
+          section: "News",
+          handler: () => {
+            window.location.href = "/news/announcement_3/";
+          },
+        },{id: "projects-lic-agustin-márquez",
           title: 'Lic. Agustin Márquez',
           description: "Director Financiero y Operacional - CFO &amp; COO",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Agustin_Marquez/";
-            },},{id: "projects-dra-analy-falcon",
+          section: "Projects",
+          handler: () => {
+            window.location.href = "/projects/Agustin_Marquez/";
+          },
+        },{id: "projects-dra-analy-falcon",
           title: 'Dra. Analy Falcon',
           description: "Médico Internista - Médico Radiólogo",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Analy_Falcon/";
-            },},{id: "projects-lic-daniela-alarcon",
+          section: "Projects",
+          handler: () => {
+            window.location.href = "/projects/Analy_Falcon/";
+          },
+        },{id: "projects-lic-daniela-alarcon",
           title: 'Lic. Daniela Alarcon',
           description: "Técnico Radiólogo",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Daniela_Alarcon/";
-            },},{id: "projects-lic-indira-gago",
+          section: "Projects",
+          handler: () => {
+            window.location.href = "/projects/Daniela_Alarcon/";
+          },
+        },{id: "projects-lic-indira-gago",
           title: 'Lic. Indira Gago',
           description: "Encargada Digital y de Comunicaciones",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Indira_Gago/";
-            },},{id: "projects-ing-jennifer-pacheco",
+          section: "Projects",
+          handler: () => {
+            window.location.href = "/projects/Indira_Gago/";
+          },
+        },{id: "projects-ing-jennifer-pacheco",
           title: 'Ing. Jennifer Pacheco',
           description: "Directora de Comunicaciones - CCO",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Jennifer_Pacheco/";
-            },},{id: "projects-dra-jenny-sosa-guerrero",
+          section: "Projects",
+          handler: () => {
+            window.location.href = "/projects/Jennifer_Pacheco/";
+          },
+        },{id: "projects-dra-jenny-sosa-guerrero",
           title: 'Dra. Jenny Sosa Guerrero',
           description: "Médico Radiólogo",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Jenny_Sosa/";
-            },},{id: "projects-dra-jenny-sosa-guerrero",
+          section: "Projects",
+          handler: () => {
+            window.location.href = "/projects/Jenny_Sosa/";
+          },
+        },{id: "projects-dra-jenny-sosa-guerrero",
           title: 'Dra. Jenny Sosa Guerrero',
           description: "Directora Ejecutiva - CEO",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Jenny_Sosa_2/";
-            },},{id: "projects-ing-maría-márquez",
+          section: "Projects",
+          handler: () => {
+            window.location.href = "/projects/Jenny_Sosa_2/";
+          },
+        },{id: "projects-ing-maría-márquez",
           title: 'Ing. María Márquez',
           description: "Directora de Tecnología - CTO",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Mar%C3%ADa_Marquez/";
-            },},{id: "projects-lic-victoria-serrano",
+          section: "Projects",
+          handler: () => {
+            window.location.href = "/projects/Mar%C3%ADa_Marquez/";
+          },
+        },{id: "projects-lic-victoria-serrano",
           title: 'Lic. Victoria Serrano',
           description: "Técnico Radiólogo",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Victoria_Serrano/";
-            },},{id: "services-prueba-biopsia-mama",
-          title: 'prueba biopsia mama',
-          description: "Director Financiero y Operacional - CFO &amp; COO",
-          section: "Services",handler: () => {
-              window.location.href = "/services/biopsia/";
-            },},{id: "services-prueba-densitometria",
-          title: 'prueba densitometria',
-          description: "Director Financiero y Operacional - CFO &amp; COO",
-          section: "Services",handler: () => {
-              window.location.href = "/services/densitometria/";
-            },},{id: "services-prueba-doppler",
-          title: 'prueba doppler',
-          description: "Director Financiero y Operacional - CFO &amp; COO",
-          section: "Services",handler: () => {
-              window.location.href = "/services/doppler/";
-            },},{id: "services-prueba-mamografia",
-          title: 'prueba mamografia',
-          description: "Director Financiero y Operacional - CFO &amp; COO",
-          section: "Services",handler: () => {
-              window.location.href = "/services/mamografia/";
-            },},{id: "services-prueba-ultrasonido",
-          title: 'prueba ultrasonido',
-          description: "Director Financiero y Operacional - CFO &amp; COO",
-          section: "Services",handler: () => {
-              window.location.href = "/services/ultrasonido/";
-            },},{
+          section: "Projects",
+          handler: () => {
+            window.location.href = "/projects/Victoria_Serrano/";
+          },
+        },// Socials{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -514,7 +572,7 @@ ninja.data = [{
         handler: () => {
           window.open("https://maps.app.goo.gl/g5qtdbaa2NZ8N2Q37", "_blank");
         },
-      },{
+      },// Theme toggle{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
