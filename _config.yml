@@ -152,7 +152,7 @@ collections:
   projects:
     output: true
   services:
-    outpout: true
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -189,7 +189,6 @@ exclude:
   - vendor
   - _pages/cv.md
   - _pages/publications.md
-  - _pages/dropdown.md
 keep_files:
   - CNAME
   - .nojekyll

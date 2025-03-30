@@ -4,7 +4,6 @@ permalink: /assets/js/search-data.js
 // get the ninja-keys element
 const ninja = document.querySelector('ninja-keys');
 
-// add the home and posts menu items
 ninja.data = [
   {%- for page in site.pages -%}
     {%- if page.permalink == '/' -%}{%- assign about_title = page.title | strip -%}{%- endif -%}
@@ -25,7 +24,7 @@ ninja.data = [
           {%- unless child.title == 'divider' -%}
             {
               {%- assign title = child.title | escape | strip -%}
-              {%- if child.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = child.permalink -%}{%- endif -%}
+              {%- assign url = child.permalink contains "/blog/" ? "/blog/" : child.permalink -%}
               id: "dropdown-{{ title | slugify }}",
               title: "{{ title | truncatewords: 13 }}",
               description: "{{ child.description | strip_html | strip_newlines | escape | strip }}",
@@ -36,11 +35,10 @@ ninja.data = [
             },
           {%- endunless -%}
         {%- endfor -%}
-
       {%- else -%}
         {
           {%- assign title = p.title | escape | strip -%}
-          {%- if p.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = p.url -%}{%- endif -%}
+          {%- assign url = p.permalink contains "/blog/" ? "/blog/" : p.url -%}
           id: "nav-{{ title | slugify }}",
           title: "{{ title | truncatewords: 13 }}",
           description: "{{ p.description | strip_html | strip_newlines | escape | strip }}",
@@ -78,28 +76,39 @@ ninja.data = [
       },
     {%- endfor -%}
   {%- endif -%}
+
+  // Servicios collection
+  {%- for service in site.services -%}
+    {
+      id: "service-{{ service.title | slugify }}",
+      title: "{{ service.title | truncatewords: 13 }}",
+      description: "{{ service.description | strip_html | strip_newlines | escape | strip }}",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "{{ service.url | relative_url }}";
+      },
+    },
+  {%- endfor -%}
+
+  // Other collections (except posts and services)
   {%- for collection in site.collections -%}
-    {%- if collection.label != 'posts' -%}
+    {%- if collection.label != 'posts' and collection.label != 'services' -%}
       {%- for item in collection.docs -%}
         {
-          {%- if item.inline -%}
-            {%- assign title = item.content | newline_to_br | replace: "<br />", " " | replace: "<br/>", " " | strip_html | strip_newlines | escape | strip -%}
-          {%- else -%}
-            {%- assign title = item.title | newline_to_br | replace: "<br />", " " | replace: "<br/>", " " | strip_html | strip_newlines | escape | strip -%}
-          {%- endif -%}
+          {%- assign title = item.title | newline_to_br | replace: "<br />", " " | replace: "<br/>", " " | strip_html | strip_newlines | escape | strip -%}
           id: "{{ collection.label }}-{{ title | slugify }}",
           title: '{{ title | escape | emojify | truncatewords: 13 }}',
           description: "{{ item.description | strip_html | strip_newlines | escape | strip }}",
           section: "{{ collection.label | capitalize }}",
-          {%- unless item.inline -%}
-            handler: () => {
-              window.location.href = "{{ item.url | relative_url }}";
-            },
-          {%- endunless -%}
+          handler: () => {
+            window.location.href = "{{ item.url | relative_url }}";
+          },
         },
       {%- endfor -%}
     {%- endif -%}
   {%- endfor -%}
+
+  // Socials
   {%- if site.socials_in_search -%}
     {%- for social in site.data.socials -%}
       {%- case social[0] -%}
@@ -158,6 +167,8 @@ ninja.data = [
       },
     {%- endfor -%}
   {%- endif -%}
+
+  // Theme toggle
   {%- if site.enable_darkmode -%}
     {
       id: 'light-theme',
