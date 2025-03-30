@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Biopsia
+title: Ultrasonido Mamario
 description: 
-img: 
-importance: 1
-category: Intervencionista
+img:
+importance: 5
+category: Ultrasonido
 ---
 
 CFO - G

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Biopsia
+title: Ultrasonido Transfontanelar
 description: 
-img: 
-importance: 1
-category: Intervencionista
+img:
+importance: 10
+category: Ultrasonido
 ---
 
 CFO - G

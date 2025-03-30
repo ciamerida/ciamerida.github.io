@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Biopsia
+title: Ultrasonido Vesical
 description: 
-img: 
-importance: 1
-category: Intervencionista
+img:
+importance: 4
+category: Ultrasonido
 ---
 
 CFO - G

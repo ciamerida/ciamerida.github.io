@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Biopsia
+title: Doppler Carotídeo - Vertebral
 description: 
-img: 
-importance: 1
-category: Intervencionista
+img:
+importance: 3
+category: Doppler
 ---
 
 CFO - G

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Biopsia
+title: Ultrasonido Renal
 description: 
-img: 
-importance: 1
-category: Intervencionista
+img:
+importance: 3
+category: Ultrasonido
 ---
 
 CFO - G

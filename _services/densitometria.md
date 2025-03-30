@@ -1,7 +1,7 @@
 ---
 layout: page
-title: prueba densitometria
-description: Director Financiero y Operacional - CFO & COO
+title: Densitometría Ósea
+description: 
 img:
 importance: 2
 category: Especializados

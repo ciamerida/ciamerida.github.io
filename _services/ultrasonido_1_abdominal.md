@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Biopsia
+title: Ultrasonido Abdominal
 description: 
-img: 
+img:
 importance: 1
-category: Intervencionista
+category: Ultrasonido
 ---
 
 CFO - G

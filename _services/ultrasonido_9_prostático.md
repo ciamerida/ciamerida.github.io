@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Biopsia
-description: 
-img: 
-importance: 1
-category: Intervencionista
+title: Ultrasonido Prostático
+description: Suprapúbico y Transrectal
+img:
+importance: 9
+category: Ultrasonido
 ---
 
 CFO - G

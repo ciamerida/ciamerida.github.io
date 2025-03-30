@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Servicios
-permalink: /servicios/
-description: 
+title: Proyectos
+permalink: /proyectos/
+description: Proyectos del Centro de Imagenología Avanzada Mérida
 nav: true
-nav_order: 3
-display_categories: [Especializados, Intervencionista, Ultrasonido, Doppler]
+nav_order: 7
+
+display_categories: [Mama, Testicular, Utero]
 horizontal: false
 ---
 
@@ -15,43 +16,45 @@ horizontal: false
       <section id="{{ category | slugify }}" class="mb-5">
         <h2 class="category mb-4">{{ category }}</h2>
 
-        {% assign categorized_services = site.services | where: "category", category %}
-        {% assign sorted_services = categorized_services | sort: "importance" %}
+        {% assign categorized_projects = site.projects | where: "category", category %}
+        {% assign sorted_projects = categorized_projects | sort: "importance" %}
 
         {% if page.horizontal %}
           <div class="container">
             <div class="row row-cols-1 row-cols-md-2">
-              {% for service in sorted_services %}
-                {% include service_horizontal.liquid service=service %}
+              {% for project in sorted_projects %}
+                {% include projects_horizontal.liquid %}
               {% endfor %}
             </div>
           </div>
         {% else %}
           <div class="row row-cols-1 row-cols-md-3">
-            {% for service in sorted_services %}
-              {% include service.liquid service=service %}
+            {% for project in sorted_projects %}
+              {% include projects.liquid %}
             {% endfor %}
           </div>
         {% endif %}
       </section>
     {% endfor %}
   {% else %}
-    {% assign sorted_services = site.services | sort: "importance" %}
+    <!-- Display all projects without categories -->
+    {% assign sorted_projects = site.projects | sort: "importance" %}
 
     {% if page.horizontal %}
       <div class="container">
         <div class="row row-cols-1 row-cols-md-2">
-          {% for service in sorted_services %}
-            {% include service_horizontal.liquid service=service %}
+          {% for project in sorted_projects %}
+            {% include projects_horizontal.liquid %}
           {% endfor %}
         </div>
       </div>
     {% else %}
       <div class="row row-cols-1 row-cols-md-3">
-        {% for service in sorted_services %}
-          {% include service.liquid service=service %}
+        {% for project in sorted_projects %}
+          {% include projects.liquid %}
         {% endfor %}
       </div>
     {% endif %}
   {% endif %}
 </div>
+

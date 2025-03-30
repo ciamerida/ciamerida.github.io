@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Biopsia
+title: Ultrasonido Pélvico
 description: 
-img: 
-importance: 1
-category: Intervencionista
+img:
+importance: 2
+category: Ultrasonido
 ---
 
 CFO - G

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Biopsia
+title: Ultrasonido Partes Blandas
 description: 
-img: 
-importance: 1
-category: Intervencionista
+img:
+importance: 7
+category: Ultrasonido
 ---
 
 CFO - G

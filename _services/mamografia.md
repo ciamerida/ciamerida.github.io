@@ -1,7 +1,7 @@
 ---
 layout: page
-title: prueba mamografia
-description: Director Financiero y Operacional - CFO & COO
+title: Mamografía Digital
+description: 
 img:
 importance: 1
 category: Especializados

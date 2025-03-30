@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Biopsia
+title: Doppler Testicular
 description: 
-img: 
+img:
 importance: 1
-category: Intervencionista
+category: Doppler
 ---
 
 CFO - G

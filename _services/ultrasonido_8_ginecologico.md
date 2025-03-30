@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Biopsia
+title: Ultrasonido Ginecológico
 description: 
-img: 
-importance: 1
-category: Intervencionista
+img:
+importance: 8
+category: Ultrasonido
 ---
 
 CFO - G

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Biopsia
+title: Ultrasonido Dermatológico
 description: 
-img: 
-importance: 1
-category: Intervencionista
+img:
+importance: 11
+category: Ultrasonido
 ---
 
 CFO - G

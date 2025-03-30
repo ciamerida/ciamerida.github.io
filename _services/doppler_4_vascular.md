@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Biopsia
-description: 
-img: 
-importance: 1
-category: Intervencionista
+title: Doppler Vascular Periférico
+description: Arterial y Venoso
+img:
+importance: 4
+category: Doppler
 ---
+
+
 
 CFO - G
 Every project has a beautiful feature showcase page.

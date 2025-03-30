@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Biopsia
+title: Doppler de Cuello
 description: 
-img: 
-importance: 1
-category: Intervencionista
+img:
+importance: 2
+category: Doppler
 ---
 
 CFO - G

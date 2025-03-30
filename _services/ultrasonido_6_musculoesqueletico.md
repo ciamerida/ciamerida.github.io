@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Biopsia
+title: Ultrasonido Músculo esquelético
 description: 
-img: 
-importance: 1
-category: Intervencionista
+img:
+importance: 6
+category: Ultrasonido
 ---
 
 CFO - G
