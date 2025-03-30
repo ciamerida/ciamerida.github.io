@@ -8,7 +8,7 @@ sections:
   - title: Médicos Especialistas
     profiles:
       - align: right
-        image: JENNY.jpeg
+        image: personal/JENNY.jpeg
         content: 
         image_circular: true
         more_info: >
@@ -18,7 +18,7 @@ sections:
           <p>CEO</p>          
 
       - align: left
-        image: ANALY.jpeg
+        image: personal/ANALY.jpeg
         content: 
         image_circular: true
         more_info: >
@@ -28,14 +28,14 @@ sections:
   - title: Técnicos Radiólogos
     profiles:
       - align: right
-        image: VICTORIA.jpeg
+        image: personal/VICTORIA.jpeg
         content: 
         image_circular: true
         more_info: >
           <p><strong>Lic. Victoria Serrano<strong></p>
 
       - align: left
-        image: DANIELA.jpeg
+        image: personal/DANIELA.jpeg
         content: 
         image_circular: true
         more_info: >
@@ -45,17 +45,16 @@ sections:
   - title: Personal Administrativo
     profiles:
       - align: right
-        image: AGUSTIN.jpeg
+        image: personal/AGUSTIN.jpeg
         content: 
         image_circular: true
         more_info: >
           <p><strong>Lic. Agustin Márquez<strong></p>
           <p>Director Financiero y Operacional</p>
           <p>CFO & COO</p>
-  
 
       - align: left
-        image: JENNIFER.jpeg
+        image: personal/JENNIFER.jpeg
         content: 
         image_circular: true
         more_info: >
@@ -64,7 +63,7 @@ sections:
           <p>CCO & CXO</p>
 
       - align: right
-        image: MECHE.jpeg
+        image: personal/MECHE.jpeg
         content: 
         image_circular: true
         more_info: >
@@ -72,18 +71,16 @@ sections:
           <p>Directora de Tecnología e Información</p>
           <p> CTO & CIO</p>
 
-
       - align: left
-        image: INDIRA.jpeg
+        image: personal/INDIRA.jpeg
         content: 
         image_circular: true
         more_info: >
           <p><strong>Lic. Indira Gago Castillo<strong></p>
           <p>Encargada Digital y de Comunicaciones</p>
 
-
       - align: right
-        image: luqa.jpeg
+        image: personal/luqa.jpeg
         content: 
         image_circular: true
         more_info: >

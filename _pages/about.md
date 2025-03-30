@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: center
-  image: ciamer.png
+  image: logo/ciamer.png
   image_circular: false
   more_info: 
     <p>Mérida, Venezuela</p>
@@ -32,6 +32,8 @@ latest_posts:
 
 > **"Una imagen puede cambiar una vida"**  
 -- *Dra. Jenny Sosa Guerrero*
+
+---
 
 <a href='#'>¿Quiénes somos?</a>
 

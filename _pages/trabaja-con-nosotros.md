@@ -7,7 +7,7 @@ nav: false
 ---
 
 <div style="text-align: center;">
-  <img src="{{ '/assets/img/pagina_en_construccion.png' | relative_url }}" alt="Equipo trabajando" style="max-width: 500px; margin-bottom: 1.5rem;">
+  <img src="{{ '/assets/img/icons/pagina_en_construccion.png' | relative_url }}" alt="Equipo trabajando" style="max-width: 500px; margin-bottom: 1.5rem;">
 </div>
 
 Estamos trabajando para abrir nuevas oportunidades profesionales en nuestro centro.
