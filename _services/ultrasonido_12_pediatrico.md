@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ultrasonido Dermatológico
+title: Ultrasonido Pediátrico
 description: 
 img:
 importance: 11

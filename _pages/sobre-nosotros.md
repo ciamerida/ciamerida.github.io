@@ -6,6 +6,8 @@ nav: true
 nav_order: 1
 
 ---
+---
+
 ## Celebramos 15 años
 
 Este 4 de abril celebramos con orgullo nuestros primeros 15 años de servicio. Han sido años de crecimiento, aprendizaje y compromiso constante con la salud de nuestra comunidad. Gracias a la confianza de nuestros pacientes y al trabajo dedicado de nuestro equipo, hemos podido consolidarnos como un centro médico de referencia en imagenología diagnóstica.
@@ -13,7 +15,7 @@ Este 4 de abril celebramos con orgullo nuestros primeros 15 años de servicio. H
 Seguimos mirando al futuro con el mismo entusiasmo del primer día, con la firme convicción de continuar innovando, mejorando y cuidando cada detalle para ofrecer siempre lo mejor.  
 ¡Gracias por ser parte de esta historia!
 
-**Cordial saludo,**  
+*Cordial saludo,*  
 **Dra. Jenny Sosa**
 
 
@@ -26,7 +28,7 @@ Nuestro compromiso con la prevención nos ha llevado a apoyar activamente la cau
 
 ---
 
-## 🎯 Misión
+## Misión
 
 Brindar servicios de imagenología diagnóstica con excelencia, precisión y calidez humana, utilizando tecnología avanzada y un equipo profesional comprometido con el bienestar integral de cada paciente.
 
