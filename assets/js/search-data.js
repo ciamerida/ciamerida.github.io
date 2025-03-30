@@ -414,14 +414,6 @@ ninja.data = [{
           
         },
       },// Servicios collection{
-      id: "service-biopsia",
-      title: "Biopsia",
-      description: "",
-      section: "Servicios",
-      handler: () => {
-        window.location.href = "/services/biopsia/";
-      },
-    },{
       id: "service-doppler-testicular",
       title: "Doppler Testicular",
       description: "",
@@ -444,6 +436,14 @@ ninja.data = [{
       section: "Servicios",
       handler: () => {
         window.location.href = "/services/doppler_3_carotideo_vertebral/";
+      },
+    },{
+      id: "service-doppler-abdominal",
+      title: "Doppler Abdominal",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/doppler_4_abdominal/";
       },
     },{
       id: "service-doppler-vascular-periférico",
@@ -478,12 +478,20 @@ ninja.data = [{
         window.location.href = "/services/especializados_3_radiografias/";
       },
     },{
+      id: "service-biopsia",
+      title: "Biopsia",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/intervencionista_1_biopsia/";
+      },
+    },{
       id: "service-punciones",
       title: "Punciones",
       description: "",
       section: "Servicios",
       handler: () => {
-        window.location.href = "/services/punciones/";
+        window.location.href = "/services/intervencionista_2_punciones/";
       },
     },{
       id: "service-ultrasonido-transfontanelar",
@@ -568,7 +576,7 @@ ninja.data = [{
     },{
       id: "service-ultrasonido-ginecológico",
       title: "Ultrasonido Ginecológico",
-      description: "",
+      description: "Suprapúbico y Transvaginal",
       section: "Servicios",
       handler: () => {
         window.location.href = "/services/ultrasonido_8_ginecologico/";
