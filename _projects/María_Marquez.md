@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Ing. María Márquez
+description: Directora de Tecnología - CTO
+img:
+importance: 4
+category: Administrativos
 ---
 
 Every project has a beautiful feature showcase page.

@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: CIAMER # blog_name will be displayed in your blog page
+blog_description: Blog de CIAMER
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -185,6 +185,9 @@ exclude:
   - _pages/profiles.md
   - purgecss.config.js
   - vendor
+  - _pages/cv.md
+  - _pages/publications.md
+  - _pages/dropdown.md
 keep_files:
   - CNAME
   - .nojekyll

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Lic. Indira Gago
+description: Encargada Digital y de Comunicaciones
+img: 
+redirect: https://unsplash.com
+importance: 5
+category: Administrativos
 ---
 
 Every project has a beautiful feature showcase page.
