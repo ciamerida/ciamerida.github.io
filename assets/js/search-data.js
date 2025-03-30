@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-posts",
-          title: "Posts",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/posts/index.html";
-          },
-        },{id: "nav-sobre-nosotros",
+  },{id: "nav-sobre-nosotros",
           title: "Sobre Nosotros",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/sobre-nosotros/";
+          },
+        },{id: "nav-servicios",
+          title: "Servicios",
+          description: "Servicios del Centro de Imagenología Avanzada Mérida",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/servicios/";
           },
         },{id: "nav-contacto",
           title: "Contacto",
@@ -29,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/contacto/";
+          },
+        },{id: "nav-posts",
+          title: "Posts",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/posts/index.html";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -454,6 +461,31 @@ ninja.data = [{
           description: "Técnico Radiólogo",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Victoria_Serrano/";
+            },},{id: "services-prueba-biopsia-mama",
+          title: 'prueba biopsia mama',
+          description: "Director Financiero y Operacional - CFO &amp; COO",
+          section: "Services",handler: () => {
+              window.location.href = "/services/biopsia/";
+            },},{id: "services-prueba-densitometria",
+          title: 'prueba densitometria',
+          description: "Director Financiero y Operacional - CFO &amp; COO",
+          section: "Services",handler: () => {
+              window.location.href = "/services/densitometria/";
+            },},{id: "services-prueba-doppler",
+          title: 'prueba doppler',
+          description: "Director Financiero y Operacional - CFO &amp; COO",
+          section: "Services",handler: () => {
+              window.location.href = "/services/doppler/";
+            },},{id: "services-prueba-mamografia",
+          title: 'prueba mamografia',
+          description: "Director Financiero y Operacional - CFO &amp; COO",
+          section: "Services",handler: () => {
+              window.location.href = "/services/mamografia/";
+            },},{id: "services-prueba-ultrasonido",
+          title: 'prueba ultrasonido',
+          description: "Director Financiero y Operacional - CFO &amp; COO",
+          section: "Services",handler: () => {
+              window.location.href = "/services/ultrasonido/";
             },},{
         id: 'social-email',
         title: 'email',
