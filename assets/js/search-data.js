@@ -2,8 +2,8 @@
 const ninja = document.querySelector('ninja-keys');
 
 ninja.data = [{
-    id: "nav-ciamer",
-    title: "CIAMER",
+    id: "nav-",
+    title: "",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -422,14 +422,6 @@ ninja.data = [{
         window.location.href = "/services/biopsia/";
       },
     },{
-      id: "service-densitometría-ósea",
-      title: "Densitometría Ósea",
-      description: "",
-      section: "Servicios",
-      handler: () => {
-        window.location.href = "/services/densitometria/";
-      },
-    },{
       id: "service-doppler-testicular",
       title: "Doppler Testicular",
       description: "",
@@ -467,7 +459,23 @@ ninja.data = [{
       description: "",
       section: "Servicios",
       handler: () => {
-        window.location.href = "/services/mamografia/";
+        window.location.href = "/services/especializados_1_mamografia/";
+      },
+    },{
+      id: "service-densitometría-ósea",
+      title: "Densitometría Ósea",
+      description: "",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/especializados_2_densitometria/";
+      },
+    },{
+      id: "service-radiografías",
+      title: "Radiografías",
+      description: "Muy pronto!",
+      section: "Servicios",
+      handler: () => {
+        window.location.href = "/services/especializados_3_radiografias/";
       },
     },{
       id: "service-punciones",
@@ -494,8 +502,8 @@ ninja.data = [{
         window.location.href = "/services/ultrasonido_11_dermatologico/";
       },
     },{
-      id: "service-ultrasonido-dermatológico",
-      title: "Ultrasonido Dermatológico",
+      id: "service-ultrasonido-pediátrico",
+      title: "Ultrasonido Pediátrico",
       description: "",
       section: "Servicios",
       handler: () => {
