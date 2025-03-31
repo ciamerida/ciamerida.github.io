@@ -79,13 +79,4 @@ sections:
           <p><strong>Lic. Indira Gago Castillo<strong></p>
           <p>Encargada Digital y de Comunicaciones</p>
 
-      - align: right
-        image: personal/luqa.jpeg
-        content: 
-        image_circular: true
-        more_info: >
-          <p>Sir Luqa Tow Mater</p>       
-          <p>Mascota Oficial</p>
-
-
 ---
