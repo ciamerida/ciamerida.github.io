@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+{% assign cv_data_name = page.cv_data | default: 'cv' %}
+{% assign cv_data = site.data[cv_data_name] %}
+
+{% if page.profile %}
+  <div class="profile text-center">
+    {% if page.profile.image %}
+      {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+      {% if page.profile.image_circular %}
+        {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+      {% else %}
+        {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+      {% endif %}
+      {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+      {% include figure.liquid 
+        loading="eager" 
+        path=profile_image_path 
+        class=profile_image_class 
+        sizes=sizes 
+        alt=page.profile.image 
+        cache_bust=true 
+      %}
+    {% endif %}
+  </div>
+{% endif %}
+
+{% if cv_data %}
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.description %}
+        <p class="post-description">{{ page.description }}</p>
+      {% endif %}
+    </header>
+
+    <article>
+      <div class="cv">
+        {% for entry in cv_data %}
+          <a class="anchor" id="{{ entry.title | slugify }}"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+            <div>
+              {% case entry.type %}
+                {% when 'list' %}
+                  {% include cv/list.liquid %}
+                {% when 'map' %}
+                  {% include cv/map.liquid %}
+                {% when 'nested_list' %}
+                  {% include cv/nested_list.liquid %}
+                {% when 'time_table' %}
+                  {% include cv/time_table.liquid %}
+                {% when 'list_groups' %}
+                  {% include cv/list_groups.liquid %}
+                {% else %}
+                  {{ entry.contents }}
+              {% endcase %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </article>
+  </div>
+{% else %}
+  <div class="post">
+    <p>No CV data found. Please set <code>cv_data</code> in the front matter (e.g. <code>cv_data: cv_jenny</code>).</p>
+  </div>
+{% endif %}

@@ -1,0 +1,63 @@
+- title: Información General
+  type: map
+  contents:
+    - name: Nombre
+      value: Jenny Coromoto Sosa Guerrero
+    - name: Origen
+      value: Mérida, Venezuela
+
+- title: Educación
+  type: time_table
+  contents:
+    - title: Diplomado de Mastología
+      institution: Sociedad Venezolana de Mastología
+      year: 2015
+      description:
+        - Caracas, Venezuela
+    - title: Médico Radiólogo
+      institution: Universidad de los Andes
+      year: 2001
+      description:
+        - Mérida, Venezuela
+    - title: Médico Cirujano
+      institution: Universidad de los Andes
+      year: 1989
+      description:
+        - Mérida, Venezuela
+
+- title: Experiencia Profesional
+  type: time_table
+  contents:
+    - title: Directora Ejecutiva
+      institution: Centro de Imagenología Avanzada Mérida
+      year: 2010 - Presente
+    - title: Médico Radiólogo
+      institution: Instituto Autónomo Hospital Universitario de los Andes
+      year: 1989 - 2016
+
+
+- title: Premios y Honores
+  type: time_table
+  contents:
+    - year: 1988 y 1999
+      items:
+        - Mejor abuelita del Mundo
+
+
+- title: Intereses Académicos
+  type: nested_list
+  contents:
+    - title: Imágenes Médicas
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Patologías Mamarias
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Otros intereses
+  type: list
+  contents:
+    - Regañar a Meche.
+    - Pelear con Luqa
